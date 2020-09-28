@@ -23,7 +23,7 @@ public class MainController {
 
 	@GetMapping("/")
 	public String mainPage() {
-		return "Main page";
+		return "Platform Blockchain Main Page";
 	}
 
 	@GetMapping("/add/{data}")
