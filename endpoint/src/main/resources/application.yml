@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost/blockchain
+    username: postgres
+    password: 1208
+    driver-class-name: org.postgresql.Driver
