@@ -6,4 +6,5 @@ spring:
     password: 1208
     driver-class-name: org.postgresql.Driver
   jpa:
-    generate-ddl: true
+    hibernate:
+      ddl-auto: validate
