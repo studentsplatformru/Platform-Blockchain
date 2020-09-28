@@ -30,6 +30,6 @@ public class MainController {
 	public String addBlock(@PathVariable String data) {
 		Block s = new Block();
 		s.setData(data);
-		return  blockRepository.save(s).toString();
+		return blockRepository.save(s).toString();
 	}
 }

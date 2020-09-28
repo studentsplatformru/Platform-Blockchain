@@ -1,1 +1,0 @@
-package ru.studentsplatform.blockchain.domain.pojo;
