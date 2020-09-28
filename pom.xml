@@ -12,12 +12,14 @@
     <properties>
         <java.version>11</java.version>
         <lombok.version>1.18.12</lombok.version>
+        <liquibase-core.version>4.0.0</liquibase-core.version>
     </properties>
 
     <modules>
         <module>endpoint</module>
         <module>entities</module>
         <module>domain</module>
+        <module>migration</module>
     </modules>
 
     <parent>
@@ -46,6 +48,11 @@
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
                 <version>${postgresql.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.liquibase</groupId>
+                <artifactId>liquibase-core</artifactId>
+                <version>${liquibase-core.version}</version>
             </dependency>
 
             <!-- Lombok -->

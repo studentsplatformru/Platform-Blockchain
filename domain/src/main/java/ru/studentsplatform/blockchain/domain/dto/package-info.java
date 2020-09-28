@@ -1,0 +1,1 @@
+package ru.studentsplatform.blockchain.domain.dto;

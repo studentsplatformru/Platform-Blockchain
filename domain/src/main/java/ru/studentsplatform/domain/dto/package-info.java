@@ -1,1 +1,0 @@
-package ru.studentsplatform.domain.dto;
